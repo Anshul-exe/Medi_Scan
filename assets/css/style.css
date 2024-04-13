@@ -7,10 +7,19 @@
 .hero{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/assets/images/bg.avif);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/bg.avif);
     background-position: center;
     background-size: cover;
     position: absolute;
+}
+h1{
+    top: 70px;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 1100;
+    text-align: center;
+    color: #fff;
 }
 .form-box{
     width: 380px;
@@ -22,14 +31,14 @@
     border-radius: 5%;
     overflow: hidden;
 }
-.button-box{
+.button-box1{
     width: 220px;
     margin: 35px auto;
     position: relative;
     box-shadow: 0 0 20px 9px #ff61241f;
     border-radius: 30px;
 }
-.toggle-btn{
+.toggle-btn1{
     padding: 10px 30px;
     cursor: pointer;
     background: transparent;
@@ -37,7 +46,7 @@
     outline: none;
     position: relative;
 }
-#btn{
+#btn1{
     top: 0;
     left: 0;
     position: absolute;
@@ -47,6 +56,65 @@
     border-radius: 30px;
     transition: .3s;
 }
+.button-box2{
+    width: 339px;
+    margin: 50px auto;
+    bottom: 50px;
+    position: relative;
+    background-color: transparent;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    width: 110px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: #0442ef;
+    position: relative;
+    border-radius: 30px;
+    background-color: rgb(72, 183, 255);
+}
+.toggle-btn2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    width: 110px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: #0442ef;
+    position: relative;
+    border-radius: 30px;
+    background-color: rgb(72, 183, 255);
+}
+.toggle-btn3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    width: 110px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: #0442ef;
+    position: relative;
+    border-radius: 30px;
+    background-color:  rgb(72, 183, 255);
+}
+#btn2{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #0442ef, #06a0ff);
+    border-radius: 30px;
+    transition: .3s;
+}
+
 .social-icons{
     margin: 30px auto;
     text-align: center;

@@ -1,6 +1,10 @@
 const x = document.getElementById("login");
 const y = document.getElementById("register");
-const z = document.getElementById("btn");
+const z = document.getElementById("btn1");
+const a = document.getElementById("doctor");
+const b = document.getElementById("patient");
+const c = document.getElementById("admin");
+
 
 function register(){
     x.style.left = "-400px";
